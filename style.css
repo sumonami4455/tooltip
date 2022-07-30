@@ -1,0 +1,17 @@
+.tooltip{
+  position: relative;
+}
+.tooltip-text{
+  width: 150px;
+  background-color: cadetblue;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  border-radius: 5px;
+  visibility: hidden;
+}
+.tooltip:hover .tooltip-text{
+  visibility: visible;
+}
